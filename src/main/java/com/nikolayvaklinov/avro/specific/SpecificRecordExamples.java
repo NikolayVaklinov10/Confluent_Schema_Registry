@@ -58,8 +58,6 @@ public class SpecificRecordExamples {
 
 
 
-        // step 4: interpret
-
 
 
     }
