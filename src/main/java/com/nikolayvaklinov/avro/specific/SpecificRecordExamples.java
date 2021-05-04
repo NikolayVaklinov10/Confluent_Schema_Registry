@@ -50,7 +50,7 @@ public class SpecificRecordExamples {
             while (dataFileReader.hasNext()) {
                 Customer readCustomer = dataFileReader.next();
                 System.out.println(readCustomer.toString());
-                System.out.println("First name: " + readCustomer.getFirstName());
+                System.out.println("First name: " + readCustomer.getFirstName() + " is " + readCustomer.getAge() + " years old");
             }
         } catch (IOException e) {
             e.printStackTrace();
