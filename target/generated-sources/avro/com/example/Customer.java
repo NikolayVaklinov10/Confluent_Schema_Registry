@@ -218,7 +218,7 @@ public class Customer extends org.apache.avro.specific.SpecificRecordBase implem
     private boolean automated_email;
 
     /** Creates a new Builder */
-    private Builder() {
+    public Builder() {
       super(SCHEMA$);
     }
 
