@@ -75,9 +75,6 @@ public class GenericRecordExamples {
             e.printStackTrace();
         }
 
-        // step 4: interpret as a generic record
-
-
 
 
     }
